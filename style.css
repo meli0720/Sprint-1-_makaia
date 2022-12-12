@@ -1,0 +1,362 @@
+body {
+    background-color: hsl(27, 66%, 92%);
+    justify-content: center;
+    justify-items: center;
+}
+
+header {
+    display: flex;
+    width: 450px;
+    height: 80px;
+    margin: 30px 0 0 450px;
+    border-radius: 10px;
+    background-color: hsl(10, 79%, 65%);
+    color: white;
+}
+
+header section {
+    height: 70px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+header .precioppal {
+    height: 30px;
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+header img {
+    height: 40px;
+    width: auto;
+    margin: 20px 0 0 150px;
+}
+
+* {
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.text>p {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contenedorppal {
+    height: 500px;
+    width: 450px;
+    margin-left: 450px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.contenedorppal>h1 {
+    margin: 10px;
+}
+
+.contenedorppal section {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 420px;
+    height: 300px;
+    border-bottom: 1px solid hsl(27, 66%, 92%);
+
+}
+
+.diagrama {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 12px;
+}
+
+.diagrama h2 {
+    font-size: 10px;
+}
+
+.di1 {
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    height: 35px;
+    margin-top: 190px;
+    border-radius: 5px;
+    width: 40px;
+    margin-left: 5px;
+    transition: 0.4s;
+}
+
+.di1:hover {
+    background-color: hsl(186, 34%, 60%);
+}
+
+.di1:hover>.precio {
+    opacity: 1;
+}
+
+.di2 {
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    height: 85px;
+    margin-top: 145px;
+    border-radius: 5px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.di2:hover {
+    background-color: hsl(30, 100%, 69%);
+}
+
+.di2:hover>.precio2 {
+    opacity: 1;
+}
+
+.di3 {
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    height: 120px;
+    margin-top: 105px;
+    border-radius: 5px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.di3:hover {
+    background-color: hsl(186, 34%, 60%);
+}
+
+.di3:hover>.precio3 {
+    opacity: 1;
+}
+
+.di4 {
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    height: 70px;
+    margin-top: 155px;
+    border-radius: 5px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.di4:hover {
+    background-color: hsl(30, 100%, 69%);
+}
+
+.di4:hover>.precio4 {
+    opacity: 1;
+}
+
+.di5 {
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    height: 50px;
+    margin-top: 175px;
+    border-radius: 5px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.di5:hover {
+    background-color: hsl(186, 34%, 60%);
+}
+
+.di5:hover>.precio5 {
+    opacity: 1;
+}
+
+.di6 {
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    height: 125px;
+    margin-top: 100px;
+    border-radius: 5px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.di6:hover {
+    background-color: hsl(30, 100%, 69%);
+}
+
+.di6:hover>.precio6 {
+    opacity: 1;
+}
+
+.di7 {
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    height: 55px;
+    margin-top: 170px;
+    border-radius: 5px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.di7:hover {
+    background-color: hsl(186, 34%, 60%);
+}
+
+.di7:hover>.precio7 {
+    opacity: 1;
+}
+
+.diagrama p {
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 5px;
+    color: hsla(0, 1%, 26%, 0.541);
+}
+
+.contenedorppal .diagrama #lunes {
+    margin: 7px;
+}
+
+.contenedorppal .diagrama #martes {
+    margin: 7px;
+}
+
+.contenedorppal .diagrama #miercoles {
+    margin: 7px;
+}
+
+.contenedorppal .diagrama #jueves {
+    margin: 7px;
+}
+
+.contenedorppal .diagrama #viernes {
+    margin: 7px;
+}
+
+.contenedorppal .diagrama #sabado {
+    margin: 7px;
+}
+
+.contenedorppal .diagrama #domingo {
+    margin: 7px;
+}
+
+.precio {
+    position: absolute;
+    bottom: 280px;
+    padding: 5px;
+    background-color: hsl(25, 47%, 15%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.precio2 {
+    position: absolute;
+    bottom: 330px;
+    padding: 5px;
+    background-color: hsl(25, 47%, 15%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.precio3 {
+    position: absolute;
+    bottom: 370px;
+    padding: 5px;
+    background-color: hsl(25, 47%, 15%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.precio4 {
+    position: absolute;
+    bottom: 320px;
+    padding: 5px;
+    background-color: hsl(25, 47%, 15%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.precio5 {
+    position: absolute;
+    bottom: 300px;
+    padding: 5px;
+    background-color: hsl(25, 47%, 15%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.precio6 {
+    position: absolute;
+    bottom: 370px;
+    padding: 5px;
+    background-color: hsl(25, 47%, 15%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.precio7 {
+    position: absolute;
+    bottom: 300px;
+    padding: 5px;
+    background-color: hsl(25, 47%, 15%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.contenedor_2 {
+    position: relative;
+    top: 5%;
+    margin: 10px;
+    width: 200px;
+}
+
+.contenedor_2>p {
+    color: hsla(0, 1%, 26%, 0.541);
+}
+
+.contenedor_2>h2 {
+    font-size: 30px;
+    padding-left: 10px;
+    color: hsl(25, 47%, 15%);
+}
+
+.contenedor_3 {
+    position: relative;
+    left: 60%;
+    bottom: 10%;
+    width: 160px;
+    padding: 10px;
+    text-align: right;
+}
+
+.month #porcentaje {
+    font-weight: bolder;
+}
+
+.month #aviso {
+    color: hsla(0, 1%, 26%, 0.541);
+    font-weight: 400;
+}
